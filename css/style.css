@@ -210,3 +210,34 @@ footer .logo {
     text-decoration: none;
     border-radius: 5px;
 }
+
+.footer-top h4 {
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #83838393;
+    text-decoration: none;
+}
+.footer-top a{
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #83838393;
+    text-decoration: none;
+}
+
+
+
+.entry-title{
+    background: linear-gradient(to right, rgba(255,255,255,0) 50%, rgb(168, 168, 168) 50%);
+    background-size: 200%;
+    background-position: 0 0;
+    display: inline;
+    transition: .3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.entry-title:hover {
+    background-position: -100% 0;
+    color: black;
+    border-radius: 5px;
+    
+}
