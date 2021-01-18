@@ -66,9 +66,9 @@
 }
 
 #hero .logo {
-    width: 150px;
+    width: 200px;
     margin: 0 auto;
-    border-radius: 50%;
+   
 }
 
 .about li {
@@ -144,13 +144,14 @@
 }
 .services .icon-box {
     border: 1px solid #1f1a1a;
-    background: url(/img/fishphoto.png) center;
+    background: url(../img/fishphoto.png) center;
     background-size: cover;
     padding: 60px 15px;
     transition: 0.3s all ease-in-out;
     margin-bottom: 20px;
-
+    
 }
+
 .services .icon-box h4 {
     font-weight: 700;
     font-size: 24px;
@@ -174,7 +175,7 @@
 }
 
 .services .icon-box:hover {
-    background: linear-gradient(rgba(2,2,2,0.5), rgba(2,2,2,0.8)), url(/img/fishphoto.png) center;
+    background: linear-gradient(rgba(2,2,2,0.5), rgba(2,2,2,0.8)), url(../img/fishphoto.png) center;
     background-size: cover;
     border-color: #afafaf;
     box-shadow: 0 0 25px 0 rgba(0,0,0,0.5);
@@ -192,7 +193,7 @@
 footer .logo {
     width: 150px;
     margin: 0 auto;
-    border-radius: 50%;
+    
 }
 
 .footer-top .footer-info {
