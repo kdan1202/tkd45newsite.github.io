@@ -18,7 +18,9 @@
     transform: scale(1.05)
     
 }
-
+.tiktok {
+    width: 45px;
+}
 .navbar-brand:hover {
     transform: scale(1.01);
 }
@@ -119,7 +121,7 @@
 .text-history{
     font-size: 20px;
     color: #3a3a3a;
-    text-align: center;
+    text-align: left;
 }
 .history p{
     margin-bottom: 0;
@@ -192,7 +194,9 @@
 .itf-logo{
     border-radius: 50%;
 }
-
+.partner-site {
+    text-decoration: none;
+}
 .services {
     background-color: rgba(255, 255, 255, 0.664);
 }
@@ -338,6 +342,50 @@ footer .logo {
     .about2 ul{
         font-size: 16px;
     }
+
+
+    .services .icon-box {
+        border: 1px solid #1f1a1a;
+        background: url(../img/partner.jpg) center;
+        background-size: cover;
+        padding: 0px 10px;
+        transition: 0.3s all ease-in-out;
+        margin-bottom: 20px;
+        
+    }
+    
+    .services .icon-box h4 {
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .services .icon-box p {
+        line-height: 24px;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .services .icon-box .text-center {
+        margin-top: 10px;
+        
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        opacity: 0;
+        transition: ease all 0.2s;
+    }
+    .services .icon-box:hover .text-center{
+        opacity: 1;
+    }
+    
+    .services .icon-box:hover {
+        background: linear-gradient(rgba(2, 2, 2, 0.705), rgba(2, 2, 2, 0.973)), url(../img/partner.jpg) center;
+        background-size: cover;
+        border-color: #afafaf;
+        box-shadow: 0 0 25px 0 rgba(0,0,0,0.5);
+        background-color: rgba(255, 255, 255, 0.507);
+        transform: translateY(-10px);
+    }
+
+
  }
 
 
