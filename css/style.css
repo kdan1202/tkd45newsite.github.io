@@ -1,3 +1,4 @@
+
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
     transition: 0.7s all ease;
@@ -99,6 +100,60 @@
     list-style-type: none;
 }
 
+/* ------------------HISTORY---------------------------*/
+.history {
+    margin: 50px 0px 50px 0px;
+    
+    padding: 50px;
+    
+}
+
+.history .container {
+    padding: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.text-history{
+    font-size: 20px;
+    color: #3a3a3a;
+    text-align: center;
+}
+.history p{
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #3a3a3a;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.history img {
+    width: 360px;
+}
+.histoftae {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+    padding: 10px;
+    width: 100%;
+    font-style: italic;
+    background: rgba(235, 235, 235, 0.678);
+    border-radius: 5px;
+    transition: ease all 0.4s;
+}
+.histoftae:hover{
+    background: rgb(235, 235, 235);
+    border-radius: 10px;
+    transform: scale(1.015);
+}
+.history .col-6 {
+    display: flex;
+    justify-content: center;
+}
+.history .row {
+    margin-bottom: 50px;
+}
+/*------------------END-HISTORY-------------------------*/
+
 .carousel-indicators {
     bottom: -80px;
 }
@@ -130,9 +185,7 @@
 .itf-logo{
     border-radius: 50%;
 }
-.history p {
-    text-align: center;
-}
+
 .services {
     background-color: rgba(255, 255, 255, 0.664);
 }
@@ -144,7 +197,7 @@
 }
 .services .icon-box {
     border: 1px solid #1f1a1a;
-    background: url(../img/fishphoto.png) center;
+    background: url(../img/partner.jpg) center;
     background-size: cover;
     padding: 60px 15px;
     transition: 0.3s all ease-in-out;
@@ -175,7 +228,7 @@
 }
 
 .services .icon-box:hover {
-    background: linear-gradient(rgba(2,2,2,0.5), rgba(2,2,2,0.8)), url(../img/fishphoto.png) center;
+    background: linear-gradient(rgba(2,2,2,0.5), rgba(2,2,2,0.8)), url(../img/partner.jpg) center;
     background-size: cover;
     border-color: #afafaf;
     box-shadow: 0 0 25px 0 rgba(0,0,0,0.5);
@@ -200,7 +253,7 @@ footer .logo {
     margin-bottom: 30px;
 }
 .footer-info .footer-link {
-    color: rgb(74, 102, 231);
+    color: rgb(98, 122, 230);
     text-decoration: none;
     transition: 0.3s all ease-in-out;
     margin-bottom: 15px;
@@ -243,3 +296,118 @@ footer .logo {
     border-radius: 5px;
     
 }
+
+
+
+
+@media (min-width: 200px) and (max-width: 575px) { 
+    .histoftae {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .histoftae p {
+        font-size: 13px;
+    }
+    .history img {
+        width: 250px;
+    }
+    .text-history {
+        width: 100%;
+        font-size: 15px;
+        text-align: left;
+    }
+    iframe{
+        margin-bottom: 25px;
+        width: 250px;
+        height: 150px;
+    }
+    
+    .history .container {
+        padding: 12px;
+    }
+    #instructors .row p {
+        font-size: 15px;
+    }
+    
+ }
+
+
+
+ @media (min-width: 576px) and (max-width: 1023px) { 
+     .history h3 {
+         margin: 25px;
+     }
+    .histoftae {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .histoftae p {
+        font-size: 20px;
+    }
+    .history img {
+        width: 300px;
+    }
+    .text-history {
+        width: 100%;
+        font-size: 20px;
+        text-align: left;
+    }
+    iframe{
+        margin-bottom: 25px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    .history .container {
+        padding: 12px;
+    }
+    #instructors .row p {
+        font-size: 18px;
+    }
+    header a {
+        font-size: 20px;
+    }
+ }
+
+
+
+
+ @media (min-width: 1024px) and (max-width: 1439px){ 
+    .history h3 {
+        margin: 25px;
+    }
+   .histoftae {
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+   .histoftae p {
+       font-size: 20px;
+   }
+   .history img {
+       width: 350px;
+   }
+   .text-history {
+       width: 100%;
+       font-size: 24px;
+       text-align: left;
+   }
+   iframe{
+       margin-bottom: 25px;
+       width: 400px;
+       height: 250px;
+   }
+   
+   .history .container {
+       padding: 12px;
+   }
+   #instructors .row p {
+       font-size: 20px;
+   }
+   header a {
+       font-size: 20px;
+   }
+   header img {
+       width: 250px;
+   }
+}
+
