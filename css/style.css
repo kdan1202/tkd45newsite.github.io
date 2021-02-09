@@ -122,6 +122,7 @@
     font-size: 20px;
     color: #3a3a3a;
     text-align: left;
+    margin-bottom: 15px;
 }
 .history p{
     margin-bottom: 0;
@@ -167,9 +168,12 @@
     background-color: #000000;
 }
 #instructors p{
-    font-size: 20px;
+    font-size: 24px;
     color: #3a3a3a;
     text-align: center;
+}
+#instructors p i{
+    font-size: 20px;
 }
 .text-center{
     margin-bottom: 15px;
@@ -187,6 +191,7 @@
     margin-bottom: 10px;
     margin-right: 10px;
 }
+
 .container2 {
     display: flex;
     justify-content: center;
@@ -327,6 +332,9 @@ footer .logo {
         font-size: 15px;
         text-align: left;
     }
+    .history .row {
+        margin-bottom: 0;
+    }
     iframe{
         margin-bottom: 25px;
         width: 250px;
@@ -408,6 +416,9 @@ footer .logo {
         width: 100%;
         font-size: 20px;
         text-align: left;
+    }
+    .history .row {
+        margin-bottom: 20px;
     }
     iframe{
         margin-bottom: 25px;
